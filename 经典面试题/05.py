@@ -2,6 +2,7 @@
 # 1. *args中args是元组，可以通过args元组获取所有位置参数
 # 2. **kwargs中的kwargs是字典，可以通过kwargs获取所有关键字参数
 # 3. 在函数的形参中，如果同时有*args和**kwargs，*args必须在**kwargs前面
+# Python中函数参数类型有位置参数, 关键字参数, 缺省参数, 可变位置参数(*args), 可变关键字参数(**kwargs)
 
 def demo(*args):
     print(args)
