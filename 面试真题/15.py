@@ -8,10 +8,10 @@ b = 200
 # print(a, b)
 
 # 方法二
-# a = a ^ b
-# b = a ^ b
-# a = a ^ b
-# print(a, b)
+a = a ^ b  
+b = a ^ b  # a0 ^ b0 ^ b0 = a0 ^ 0 = a0
+a = a ^ b  # a0 ^ b0 ^ a0 = b0
+print(a, b)
 
 # 方法三
 # c = a
@@ -20,7 +20,7 @@ b = 200
 # print(a, b)
 
 # 方法四
-a = a + b
-b = a - b
-a = a - b
+a = a + b  # a0 + b0
+b = a - b  # a0 + b0 - b0 = a0
+a = a - b  # a0 + b0 - a0 = b0
 print(a, b)
