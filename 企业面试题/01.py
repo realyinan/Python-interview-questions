@@ -1,7 +1,6 @@
 # 在Python中如何实现单例模
 def singleton(cls):
     instaces = {}
-
     def wrapper(*args, **kwargs):
         if cls not in instaces:
             instaces[cls] = cls(*args, **kwargs)

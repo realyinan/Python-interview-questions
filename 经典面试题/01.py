@@ -1,9 +1,9 @@
 # 请说说Python中的作用域是怎样划分的
 
 # 作用域
-# 内键作用域: Built-in
+# 内置作用域: Built-in
 # 全局作用域: Global
-# 函数作用域: Enclosing 闭包
+# 嵌套作用域: Enclosing 闭包
 # 局部作用域: Local
 
 # 在Python中，作用域指的是变量的可访问性和生存周期
