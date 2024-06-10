@@ -10,6 +10,8 @@ def print_dir_content(spath):
         else:
             print(s_child_path)
 
-print_dir_content(r"C:\Users\19981\Pictures\Camera Roll")
+ 
+
+print_dir_content(r"C:\Users\19981\Desktop\复习")
         
 

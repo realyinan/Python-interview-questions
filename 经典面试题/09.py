@@ -33,6 +33,7 @@ def outer1(fn):
         return res
     return inner
 
+# dance = outer1(dance)
 @outer1
 def dance(name):
     print(f'跳{name}舞')

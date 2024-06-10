@@ -3,7 +3,7 @@
 def reverse_string(content):
 
     # 切片
-    return content[::-1]
+    # return content[::-1]
 
     # 反转拼接
     return ''.join(reversed(content))

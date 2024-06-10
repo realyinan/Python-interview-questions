@@ -1,6 +1,7 @@
 # 请用Python语言实现功能：输入年月日，判断这一天是这一年的第几天?
 
 import datetime
+import time
 
 def dayodyear():
     year = int(input('请输入年份: '))
@@ -12,13 +13,17 @@ def dayodyear():
         month=month,
         day=day
     )
-    print(date1)
-    print(date1)
 
     date2 = datetime.date(year=year, month=1, day=1)
 
-    print(date2)
-
     return (date1 - date2).days + 1
 
-print(dayodyear())
+
+time1 = datetime.datetime.now()
+print(time1)
+print(time1.strftime('%Y-%m-%d'))
+print('*'*100)
+time2 = time.time()
+print(time2)
+time3 = time.ctime(time2)
+print(time3)
