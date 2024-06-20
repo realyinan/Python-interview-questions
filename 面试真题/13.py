@@ -4,7 +4,6 @@
 def fn(n):
     n += 1
     print(n)
-    print('n:', n)
 
 n = 100
 fn(n)
@@ -14,7 +13,6 @@ print('n:', n)
 def fn2(alist):
     alist.append(4)
     print(alist)
-    print('alist:', alist)
 
 alist = [1, 2, 3]
 fn2(alist)

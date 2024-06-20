@@ -7,7 +7,7 @@ def count_items(items):
     d = {}
     for item in items:
         if isinstance(item, (int, float)):
-            d[str(item)] = d.get(item, 0) + 1
+            d[item] = d.get(item, 0) + 1
     return d
 
 res = count_items(li)
