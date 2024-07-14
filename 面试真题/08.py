@@ -8,3 +8,4 @@ set2 = set(list2)
 
 print(set1 & set2)
 print(set1 ^ set2)
+print(set1 | set2)

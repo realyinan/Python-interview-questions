@@ -12,7 +12,7 @@ def get_lines():
             if part:
                 yield part
             else:
-                return None
+                break
     
 def process(e):
     print('e:', e)

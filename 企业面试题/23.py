@@ -6,7 +6,7 @@ def get_lines():
             if part:
                 yield part
             else:
-                return None
+                break
 
 for e in get_lines():
     print(e)
